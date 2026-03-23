@@ -25,3 +25,8 @@ These are personal scripts, not production-grade. Use at your own risk.
 ## License
 
 MIT
+
+
+## Getting Started
+
+See individual files for usage details.
