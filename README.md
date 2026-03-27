@@ -1,37 +1,21 @@
-# azure-deploy-scripts
+# Azure Deploy Scripts - Environment Config Example
 
-Scripts and templates I use to automate Azure deployments.
+This repository provides example scripts for configuring environments during deployment on Azure using Redis, Python, GitHub Actions, and Docker.
 
-## What's in here
+## Features
+- Configure Azure credentials and secrets
+- Set up Redis cache configurations
+- Define Python service deployment parameters
+- Set Docker registry credentials
+- Define GitHub Actions secrets for CI/CD
 
-- `scripts/deploy-webapp.sh` — Deploy a Python web app to Azure App Service
-- `scripts/setup-redis.sh` — Provision Azure Cache for Redis
-- `templates/` — ARM templates for common patterns
+## Usage
+1. Clone this repository
+2. Source or execute the `environment-config-example.sh` script to set environment variables.
+3. Use these variables in your deployment pipelines.
 
-## Quick start
-
-```bash
-# Login to Azure CLI
-az login
-
-# Deploy web app
-./scripts/deploy-webapp.sh --name my-app --rg my-resource-group
-```
-
-## Notes
-
-These are personal scripts, not production-grade. Use at your own risk.
+## Contributing
+Feel free to contribute by forking this repository and submitting a pull request.
 
 ## License
-
-MIT
-
-
-## Getting Started
-
-See individual files for usage details.
-
-
-## License
-
-MIT
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
