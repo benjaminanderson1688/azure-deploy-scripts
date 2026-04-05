@@ -1,21 +1,17 @@
-# Azure Deploy Scripts - Environment Config Example
+# Azure Deploy Scripts
 
-This repository provides example scripts for configuring environments during deployment on Azure using Redis, Python, GitHub Actions, and Docker.
+This repository contains example shell scripts for deploying and configuring applications on Azure.
 
 ## Features
-- Configure Azure credentials and secrets
-- Set up Redis cache configurations
-- Define Python service deployment parameters
-- Set Docker registry credentials
-- Define GitHub Actions secrets for CI/CD
+- Environment configuration for Azure, Redis, Python, and Docker
+- Integration with GitHub Actions for CI/CD pipelines
+- Example deployment and setup scripts
 
 ## Usage
-1. Clone this repository
-2. Source or execute the `environment-config-example.sh` script to set environment variables.
-3. Use these variables in your deployment pipelines.
+1. Clone the repository: `git clone https://github.com/your-username/azure-deploy-scripts.git`
+2. Navigate to the project directory: `cd azure-deploy-scripts`
+3. Run the environment configuration script: `source environment-config-example.sh`
+4. Follow the instructions in the deployment README for further steps.
 
 ## Contributing
-Feel free to contribute by forking this repository and submitting a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Please feel free to contribute by submitting pull requests or suggesting improvements.
