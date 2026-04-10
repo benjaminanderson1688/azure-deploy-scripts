@@ -1,17 +1,23 @@
-# Azure Deploy Scripts
+# Backup Scripts for Azure Deploy
 
-This repository contains example shell scripts for deploying and configuring applications on Azure.
+This repository contains backup and restore scripts for Redis instances deployed on Azure.
 
 ## Features
-- Environment configuration for Azure, Redis, Python, and Docker
-- Integration with GitHub Actions for CI/CD pipelines
-- Example deployment and setup scripts
+- Backup Redis data to Azure Blob Storage
+- Restore Redis data from Azure Blob Storage
+- Automated backup workflow with GitHub Actions
 
 ## Usage
-1. Clone the repository: `git clone https://github.com/your-username/azure-deploy-scripts.git`
-2. Navigate to the project directory: `cd azure-deploy-scripts`
-3. Run the environment configuration script: `source environment-config-example.sh`
-4. Follow the instructions in the deployment README for further steps.
+1. Clone this repository
+2. Configure environment variables in the scripts
+3. Run the backup or restore scripts as needed
+
+## Requirements
+- Azure CLI installed and configured
+- Redis server running with access credentials
 
 ## Contributing
-Please feel free to contribute by submitting pull requests or suggesting improvements.
+Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md) to submit pull requests.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
